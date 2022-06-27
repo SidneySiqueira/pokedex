@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    background-size: 100%,
-    background-repeat= "no-repeat";
+    background-image: url(https://cdn-icons-png.flaticon.com/512/188/188918.png);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: row;
     position: fixed;
     width: 700px;
-    height: 500px;
+    height: 600px;
     color: black;
     align-items: center;
     justify-content: space-around;
