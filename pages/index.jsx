@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useState } from "react";
@@ -17,14 +16,13 @@ export default function Home() {
       .then((response) => setAbilities(response.data))
     setOpenModal(true)
   }
-
   return (
     <div className={styles.container}>
       <Head>
         <title>Pokedex</title>
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.main} >
         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png' />
 
         {openModal &&
